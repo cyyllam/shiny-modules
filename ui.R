@@ -7,6 +7,6 @@ navbarPage(title = "Shiny Modules Reprex",
                     scatterplot_ui('plot1', mtcars, "Motor Trend Car Road Tests, aka mtcars")),
            
            tabPanel(title = 'Tab Two',
-                    scatterplot_ui('plot2', diamonds, "Diamonds"))
+                    scatterplot_ui('plot2', diamonds, "Prices of over 50,000 round cut diamonds, aka diamonds"))
            
            )
