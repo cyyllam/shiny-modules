@@ -1,4 +1,6 @@
 library(tidyverse)
 library(bslib)
 
-source('modules/scatterplot.R')
+# run all files (scatterplot.R, text.R) in the modules sub-directory
+module_files <- list.files('modules', full.names = TRUE)
+sapply(module_files, source)

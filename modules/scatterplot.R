@@ -1,5 +1,5 @@
-# This module comprises a UI and Server component. 
-# This will return a full layout with scatterplot and selectInput widgets to determine what populates the X & Y axis
+# Modules contains a UI and Server component. 
+# This will return a full layout with scatterplot and selectInput widgets for the user to choose what populates the X & Y axis
 
 scatterplot_ui <- function(id, data, title) {
   ns <- NS(id) # ns is namespace
