@@ -1,3 +1,5 @@
+# This app shows how modules are setup and how they can be used in Shiny. Tabs 1 & 2 call the scatterplot module. Tab 3 calls the text module.
+
 library(tidyverse)
 library(bslib)
 
