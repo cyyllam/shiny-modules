@@ -5,6 +5,8 @@ server <- function(input, output, session) {
   scatterplot_server('plot2', diamonds)
   
   observeEvent(input$`plot1-go` | input$`plot2-go`, {
+    # an observe event to update tab three when either of the Enter buttons are clicked
+    
     # calling server component of modules AND using another modules' information as arguments 
     # Notice the backticks and the hyphenated combo of id and parameter name
     
